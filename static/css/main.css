@@ -57,9 +57,24 @@ main #page-projects {
   display: none;
   height: 100%;
 }
+main #page-projects ul {
+  list-style-type: none;
+  text-align: center;
+}
+main #page-projects ul li {
+  display: block;
+  padding: 10px;
+  font-size: 1.5em;
+}
 main #page-about {
   display: none;
   height: 100%;
+}
+main #page-about h1 {
+  font-size: 3em;
+}
+main #page-about p {
+  font-size: 1.3em;
 }
 nav {
   text-align: center;
