@@ -3,7 +3,7 @@
 ;(function($) {
 
   $(function pageReady() {
-    $('.arrow a').click((e) => navTo(e.target.getAttribute('href')))
+    $('.arrow-button').click((e) => navTo(e.currentTarget.getAttribute('href')))
     $('nav a').click((e) => navTo(e.target.getAttribute('href')))
     
   })
