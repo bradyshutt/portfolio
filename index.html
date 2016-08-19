@@ -1,39 +1,39 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:400,700,900" rel="stylesheet">
 <link rel="stylesheet" href="static/css/main.css" type="text/css">
 <title>Brady Shutt</title> 
 </head> 
 <body> 
 
-  <div class="main-wrapper">
-    <p id="left-arrow"><a href="#" class="button">&#X25C4;</a></p>
-    <main role="main">
-      <div class="page" id="page1">
-        Yo!
-      </div>
+  <p id="arrow-left" class="arrow"><a href="#prev" class="button">&#X25C4;</a></p>
+  <p id="arrow-right" class="arrow"><a href="#next" class="button">&#X25BA;</a></p>
 
-      <div class="page" id="page2">
-        Yo!
-      </div>
+  <main role="main">
+    <div id="page-home">
+      <div class="page">I'm Brady.</div>
+    </div>
 
-      <div class="page" id="page3">
-        Yo!
-      </div>
+    <div id="page-projects">
+      <div class="page">Projects!</div>
+    </div>
 
-      <div class="page" id="page4">
-        Yo!
-      </div>
-    </main>
-    <p id="right-arrow"><a href="#" class="button">&#X25BA;</a></p>
-  </div>
+    <div id="page-about">
+      <div class="page">About!</div>
+    </div>
+
+  </main>
 
   <nav>
     <ul>
-      <li><a href="#" class="button">About</a></li>
-      <li><a href="#" class="button">&#8962;</a></li>
-      <li><a href="#" class="button">Projects</a></li>
+      <li><a href="#page-about" class="button">About</a></li>
+      <li><a href="#page-home" class="button current">&#8962;</a></li>
+      <li><a href="#page-projects" class="button">Projects</a></li>
     </ul>
   </nav>
+
 </body> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="static/js/main.js"></script>
 </html>

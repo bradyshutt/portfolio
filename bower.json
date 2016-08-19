@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "homepage": "https://bradyshutt.github.io/portfolio",
+  "authors": [
+    "Brady <bradyshutt@gmail.com>"
+  ],
+  "description": "Brady's portfolio website",
+  "main": "index.html",
+  "keywords": [
+    "portfolio"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
