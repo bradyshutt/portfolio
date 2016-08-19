@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+
+if [[ $# == 0 ]]; then
+  echo 'Usage: ./tools '
+  exit
+else
+
+  if [[ $1 == 'less' ]]; then
+    less-watcher -d static/less -p ../css/
+  fi
+
+fi
+
+
+
+
