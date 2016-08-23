@@ -13,6 +13,7 @@
         navTo(e.currentTarget.getAttribute('href')) 
       }
     })
+    $('')
     document.body.style.overflow = 'hidden';
   })
 
@@ -55,7 +56,7 @@
         .animate({
           top: 0,
           left: toLeft ? (-pageWidth) : pageWidth
-          }, duration )
+          }, duration)
       
       $(newPage)
         .offset({ 
@@ -66,7 +67,7 @@
         .animate({
           left: 0, 
           top: 0 
-          }, duration)
+          }, duration )
       }
 
   })()
