@@ -1,19 +1,23 @@
 'use strict'
-
 ;(function($) {
 
   $(function pageReady() {
+
     $('.arrow-link').click(function(e) {
       e.preventDefault()
       navTo(e.currentTarget.getAttribute('href')) 
     })
+
     $('nav li a').click(function(e) {
       e.preventDefault()
       if (e.currentTarget === this) {
         navTo(e.currentTarget.getAttribute('href')) 
       }
     })
-    $('')
+
+    $(window).resize(function(e) {
+      $('.page').width('100%')
+    })
     document.body.style.overflow = 'hidden';
   })
 
