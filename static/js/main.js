@@ -67,7 +67,6 @@
           top: 0, 
           left: toLeft ? pageWidth : (-pageWidth) 
           })
-        .show()
         .animate({
           left: 0, 
           top: 0 
