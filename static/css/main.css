@@ -51,6 +51,7 @@ body {
   width: 100%;
   height: 100%;
   font-size: 100%;
+  overflow: hidden;
 }
 .arrow-wrapper {
   position: absolute;
