@@ -113,7 +113,7 @@ main {
   align-items: center;
 }
 #page-projects section h2 {
-  margin-top: 4%;
+  margin: 4% 0 4px 0;
   color: #FF8800;
 }
 #page-projects section ul {
@@ -123,6 +123,14 @@ main {
 #page-projects section ul li {
   display: block;
   padding: 10px;
+}
+#page-projects img {
+   width: 20px;
+   padding-bottom: 20px;
+}
+#page-projects img {
+   width: 20px;
+   padding-bottom: 20px;
 }
 @media all and (max-width: 749px) {
   #page-projects section ul li {
